@@ -9,7 +9,7 @@ export default function Footer() {
                 About Aplus<span className="text-primary">.</span>{" "}
               </h3>
               <p>
-                Unlock Your Child's Full Potential with Affordable, Personalized Tutoring Designed to Inspire Confidence and Academic Success.
+                Unlock Your Child&apos;s Full Potential with Affordable, Personalized Tutoring Designed to Inspire Confidence and Academic Success.
               </p>
             </div>
             <div className="widget">
