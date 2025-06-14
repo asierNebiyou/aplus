@@ -21,7 +21,7 @@ export default function Services() {
             <div className="block-v1 color-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
               <span className="flaticon-baby"></span>
               <h3>$129/month</h3>
-              <p>Language for Beginners Amharic or Tigrina.</p>
+              <p>Language for Beginners Amharic or Tigrina.<br/><br/></p>
             </div>
           </div>
         </div>
