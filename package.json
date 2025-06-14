@@ -9,13 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "aos": "^2.3.4",
+    "jquery-waypoints": "^2.0.5",
+    "next": "15.3.3",
+    "owl.carousel": "^2.3.4",
     "react": "^19.0.0",
+    "react-bootstrap": "^2.10.10",
+    "react-bootstrap-icons": "^1.11.6",
     "react-dom": "^19.0.0",
-    "next": "15.3.3"
+    "react-slick": "^0.30.3",
+    "react-youtube": "^10.1.0",
+    "slick-carousel": "^1.8.1",
+    "stellar.js": "^0.6.5"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
     "eslint": "^9",
-    "eslint-config-next": "15.3.3",
-    "@eslint/eslintrc": "^3"
+    "eslint-config-next": "15.3.3"
   }
 }
