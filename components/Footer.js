@@ -191,6 +191,7 @@ export default function Footer() {
           <div className="col-lg-3">
             <div className="widget">
               <h3>Contact</h3>
+              <address>Denver,USA</address>
               <ul className="list-unstyled links mb-4">
                
                 <li>

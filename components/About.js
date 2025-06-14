@@ -61,10 +61,10 @@ export default function About() {
                 data-aos-delay="0"
               >
                 <span className="counter d-block">
-                  <span data-number="4000">4,000</span>
+                  <span data-number="4000">4836</span>
                   <span>+</span>
                 </span>
-                <span className="caption-2">Students</span>
+                <span className="caption-2">Sessions</span>
               </div>
               <div
                 className="col-4 col-lg-4 aos-init aos-animate"
@@ -72,7 +72,7 @@ export default function About() {
                 data-aos-delay="100"
               >
                 <span className="counter d-block">
-                  <span data-number="49">49</span>
+                  <span data-number="49">21</span>
                   <span></span>
                 </span>
                 <span className="caption-2">Teachers</span>
@@ -83,10 +83,10 @@ export default function About() {
                 data-aos-delay="100"
               >
                 <span className="counter d-block">
-                  <span data-number="12">12</span>
-                  <span></span>
+                  <span data-number="12">85.7% </span>
+                  {/* <span></span> */}
                 </span>
-                <span className="caption-2">Awards</span>
+                <span className="caption-2">Retention Rate</span>
               </div>
             </div>
 
@@ -107,7 +107,7 @@ export default function About() {
                   letterSpacing: "0.05rem",
                 }}
               >
-                Admission
+                Schedule a Free Trial
               </a>
             </p>
           </div>

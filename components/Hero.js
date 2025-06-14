@@ -86,7 +86,7 @@ export default function Hero() {
                     data-aos="fade-up"
                     data-aos-delay="100"
                   >
-                    Unlock your Child’s full potential
+                    Unlock your Child&apos;s full potential
                   </h1>
                   <div
                     className="mb-5 text-white desc mx- aos-init aos-animate"
@@ -94,11 +94,11 @@ export default function Hero() {
                     data-aos-delay="200"
                   >
                     <p>
-                      Find the right tutor for your child—someone who ensures
-                      <a href="#" target="_blank" className="link-highlight">
-                        , homework is done, subjects are mastered
-                      </a>
-                      and sends weekly progress reports, through Online sessions
+                      Find the right tutor for your child—someone who ensures ,
+                      <span  className="link-highlight">
+                         homework is done, subjects are mastered
+                      </span>
+                     &nbsp; and sends weekly progress reports, through Online sessions
                       you can join anytime.
                     </p>
                   </div>
@@ -119,7 +119,7 @@ export default function Hero() {
                       href="#"
                       className="btn btn-primary"
                     >
-                      Explore now
+                     Get a Free Trial
                     </a>
                   </p>
                 </div>
