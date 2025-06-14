@@ -61,7 +61,7 @@ export default function About() {
                 data-aos-delay="0"
               >
                 <span className="counter d-block">
-                  <span data-number="4000">4836 +</span>
+                  <span data-number="4000">4836 </span>
                   <span>+</span>
                 </span>
                 <span className="caption-2">Sessions</span>
@@ -107,7 +107,7 @@ export default function About() {
                   letterSpacing: "0.05rem",
                 }}
               >
-                Schedule a Free Trial
+                Get a Free Trial
               </a>
             </p>
           </div>
