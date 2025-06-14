@@ -64,7 +64,7 @@ export default function Offer() {
               <h3>Homework Assistance</h3>
               <p>
                 Get daily support to complete assignments accurately and on
-                time..
+                time.
               </p>
             </div>
           </div>

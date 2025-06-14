@@ -61,7 +61,7 @@ export default function About() {
                 data-aos-delay="0"
               >
                 <span className="counter d-block">
-                  <span data-number="4000">4836</span>
+                  <span data-number="4000">4836 +</span>
                   <span>+</span>
                 </span>
                 <span className="caption-2">Sessions</span>
@@ -72,7 +72,7 @@ export default function About() {
                 data-aos-delay="100"
               >
                 <span className="counter d-block">
-                  <span data-number="49">21</span>
+                  <span data-number="49">21+</span>
                   <span></span>
                 </span>
                 <span className="caption-2">Teachers</span>
@@ -83,7 +83,7 @@ export default function About() {
                 data-aos-delay="100"
               >
                 <span className="counter d-block">
-                  <span data-number="12">85.7% </span>
+                  <span data-number="12">85.7 % </span>
                   {/* <span></span> */}
                 </span>
                 <span className="caption-2">Retention Rate</span>
