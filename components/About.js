@@ -1,4 +1,12 @@
+import CountUp from "react-countup";
+import { useInView } from "react-intersection-observer";
+
 export default function About() {
+
+  const { ref: counterRef, inView } = useInView({
+    triggerOnce: true, // run only once
+    threshold: 0.3,    // start when 30% of element is visible
+  });
   return (
     <div className="untree_co-section">
       <div className="container">
@@ -54,14 +62,14 @@ export default function About() {
               <li>large language ocean</li>
             </ul> */}
 
-            <div className="row count-numbers mb-5 ">
-              <div
-                className="col-4 col-lg-4 aos-init aos-animate "
+            <div className="row count-numbers mb-5 " ref={counterRef}>
+ <div
+                className="col-4 col-lg-4 aos-init aos-animate"
                 data-aos="fade-up"
                 data-aos-delay="0"
               >
-                <span className="counter d-block">
-                  <span data-number="4000">4836 </span>
+                <span className="counter d-block" >
+                  {inView && <CountUp end={4500} duration={2} />}
                   <span>+</span>
                 </span>
                 <span className="caption-2">Sessions</span>
@@ -72,19 +80,19 @@ export default function About() {
                 data-aos-delay="100"
               >
                 <span className="counter d-block">
-                  <span data-number="49">21+</span>
-                  <span></span>
+                  {inView && <CountUp end={20} duration={2} />}
+                  <span>+</span>
                 </span>
                 <span className="caption-2">Teachers</span>
               </div>
               <div
                 className="col-4 col-lg-4 aos-init aos-animate"
                 data-aos="fade-up"
-                data-aos-delay="100"
+                data-aos-delay="200"
               >
                 <span className="counter d-block">
-                  <span data-number="12">85.7 % </span>
-                  {/* <span></span> */}
+                  {inView && <CountUp end={86} duration={2} />}
+                  <span>%</span>
                 </span>
                 <span className="caption-2">Retention Rate</span>
               </div>

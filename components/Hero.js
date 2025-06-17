@@ -86,7 +86,7 @@ const [showModal, setShowModal] = useState(false);
                   <h1
                     className="mb-4 heading text-white aos-init aos-animate"
                     data-aos="fade-up"
-                    data-aos-delay="100"
+                    data-aos-delay="100" style={{  textTransform: "uppercase" }}
                   >
                     Unlock your Child&apos;s full potential
                   </h1>

@@ -604,43 +604,67 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 .position-relative {
   position: relative; }
-
 .block-v1 {
   position: relative;
-  z-index: 8;
-  padding: 30px;
-  margin-top: -40px; }
-  @media (max-width: 991.98px) {
-    .block-v1 {
-      margin-bottom: 70px; } }
-  @media (max-width: 767.98px) {
-    .block-v1 {
-      margin-top: 0px;
-      margin-bottom: 30px; } }
-  .block-v1 [class^="flaticon-"] {
-    font-size: 35px;
-    color: #ffffff;
-    margin-bottom: 10px;
-    display: block;
-    width: 75px;
-    height: 75px;
-    line-height: 75px;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 40%; }
-  .block-v1 h3 {
-    font-size: 18px;
-    color: #ffffff; }
-  .block-v1 p {
-    color: rgba(255, 255, 255, 0.7); }
-  .block-v1 *:last-child {
-    margin-bottom: 0; }
-  .block-v1.color-1 {
-    background-color: #5cb100; }
-  .block-v1.color-2 {
-    background-color: #ec661f; }
-  .block-v1.color-3 {
-    background-color: #4fb0dc; }
+  padding: 50px 30px;
+  border-radius: 20px;
+  text-align: center;
+  transition: all 0.4s ease;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.block-v1.glass {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.shadow-hover:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.2);
+}
+
+.block-v1 .price-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(145deg, rgba(255,255,255,0.2), rgba(255,255,255,0.1));
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 0 4px rgba(255,255,255,0.15);
+}
+
+.block-v1 h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.block-v1 p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* Thematic color classes */
+.block-v1.color-1 {
+  background: linear-gradient(135deg, #5cb100 0%, #76d600 100%);
+}
+.block-v1.color-2 {
+  background: linear-gradient(135deg, #ec661f 0%, #ff914d 100%);
+}
+.block-v1.color-3 {
+  background: linear-gradient(135deg, #4fb0dc 0%, #6fcfff 100%);
+}
+
 
 .feature {
   margin-bottom: 40px; }

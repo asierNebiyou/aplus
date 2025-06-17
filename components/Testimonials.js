@@ -59,7 +59,7 @@ export default function Testimonials() {
                   letterSpacing: "0.05rem",
                 }}
               >
-                Enroll Now
+             TRY A FREE SESSION
               </a>
             </p>
           </div>
