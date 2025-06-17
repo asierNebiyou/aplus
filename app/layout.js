@@ -1,6 +1,7 @@
 ""
 import './globals.css';
 import Script from 'next/script';
+import { Providers } from "./providers";
 
 export const metadata = {
   title: 'A Plus Tutoring - Best Online Tutoring service.',
@@ -39,7 +40,7 @@ export default function RootLayout({
         />
       </head>
       <body>
-        {children}
+        <Providers>{children}</Providers>
         <Script src="/js/jquery.min.js" strategy="beforeInteractive" />
         <Script src="/js/jquery.waypoints.min.js" strategy="beforeInteractive" />
         <Script src="/js/popper.min.js" strategy="afterInteractive" />

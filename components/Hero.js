@@ -2,11 +2,13 @@
 import { Modal, ModalBody } from "react-bootstrap";
 import { useState, useRef, useEffect } from "react";
 import dynamic from "next/dynamic";
+import { useZoomModal } from "@/context/ZoomModalContext";
 
 const YouTube = dynamic(() => import("react-youtube"), { ssr: false });
 
 export default function Hero() {
 const [showModal, setShowModal] = useState(false);
+ const { openZoomModal } = useZoomModal();
   const [selectedVideo, setSelectedVideo] = useState(null);
 
   const getYouTubeHeight = () => {
@@ -118,7 +120,7 @@ const [showModal, setShowModal] = useState(false);
                         fontWeight: 700,
                         letterSpacing: "0.05rem",
                       }}
-                      href="#"
+                      onClick={openZoomModal}
                       className="btn btn-primary"
                     >
                       Get a Free Trial
@@ -252,7 +254,6 @@ style={{
   &times;
 </button>
 </div>
-
 
     </>
   );

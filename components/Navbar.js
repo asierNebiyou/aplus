@@ -1,8 +1,9 @@
 "use client";
-
+import { useZoomModal } from "@/context/ZoomModalContext";
 import { useState, useEffect } from 'react';
 
 const Navbar = () => {
+  const { openZoomModal } = useZoomModal();
   const [isSticky, setIsSticky] = useState(false);
 
   useEffect(() => {
@@ -27,7 +28,7 @@ const Navbar = () => {
           </a>
 
           <a 
-            href="#" 
+            onClick={openZoomModal}
             className="btn-book btn btn-primary btn-sm menu-absolute"
             style={{
               padding: '10px 15px',

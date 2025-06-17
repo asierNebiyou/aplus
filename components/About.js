@@ -1,8 +1,9 @@
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
+import { useZoomModal } from "@/context/ZoomModalContext";
 
 export default function About() {
-
+ const { openZoomModal } = useZoomModal();
   const { ref: counterRef, inView } = useInView({
     triggerOnce: true, // run only once
     threshold: 0.3,    // start when 30% of element is visible
@@ -104,7 +105,7 @@ export default function About() {
               className="aos-init aos-animate"
             >
               <a
-                href="#"
+                onClick={openZoomModal}
                 className="btn btn-primary"
                 style={{
                   padding: "15px 30px",

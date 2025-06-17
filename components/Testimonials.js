@@ -1,9 +1,10 @@
 "use client";
-'use client';
 import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css'; 
 import 'slick-carousel/slick/slick-theme.css';
+
+import { useZoomModal } from "@/context/ZoomModalContext";
 
 const testimonials = [
   "This product changed my life!",
@@ -13,7 +14,7 @@ const testimonials = [
 ];
 
 export default function Testimonials() {
-
+  const { openZoomModal } = useZoomModal();
    const settings = {
     dots: false,
     infinite: true,
@@ -46,7 +47,7 @@ export default function Testimonials() {
             
             <p>
               <a
-                href="#"
+                onClick={openZoomModal}
                 className="btn btn-primary aos-init aos-animate"
                 data-aos="fade-up"
                 data-aos-delay="200"
