@@ -16,7 +16,7 @@ const testimonials = [
   {
     name: "Tsega Tesfaye",
     role: "Parent",
-    text: "AFFORDABLE & HIGH-QUALITY!\nMy daughter has been tutoring with A+ for over a year now. We love that they care for kids and their education...",
+    text: "Affordable & High-Quality ! \nMy daughter has been tutoring with A+ for over a year now. We love that they care for kids and their education...",
   },
   {
     name: "Delina Woldu",
@@ -85,6 +85,7 @@ export default function Testimonials() {
               fill="white"
               width="50"
               height="50"
+              style={{ marginBottom: "20px" }}
               viewBox="0 -3.5 31 31"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -97,9 +98,12 @@ export default function Testimonials() {
                 fontSize: "20px",
                 lineHeight: 1.8,
                 whiteSpace: "pre-line",
+                marginBottom: "20px",
+                
+               
               }}
             >
-              “{text}”
+              {text}
             </p>
 
             {/* Avatar + Details */}
