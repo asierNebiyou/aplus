@@ -23,7 +23,7 @@ export default function Services() {
               color: "color-3",
             },
           ].map((s, idx) => (
-            <div key={idx} className="col-12 col-sm-6 col-lg-4" style={{marginBottom:'15px'}}>
+            <div key={idx} className="col-12  col-lg-4" style={{marginBottom:'15px'}}>
               <div className={`block-v1 ${s.color} glass shadow-hover`} data-aos="fade-up" data-aos-delay={idx * 100}>
                 <span className="price-badge">{s.price}</span>
                 <h3>{s.title}</h3>
