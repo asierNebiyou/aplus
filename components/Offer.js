@@ -28,16 +28,16 @@ export default function Offer() {
               <span className="icon-music_note color-1">
                 <Translate />
               </span>
-              <h3>English Class</h3>
+              <h3 style={{fontWeight:"bolder"}}>English Class</h3>
               <p>
                 Build strong reading, writing, and speaking skills to boost
                 school performance and confidence.
                 <span className="d-block mt-3">
                   <a target="_blank"
                     href="https://scheduler.zoom.us/a-help-sitra/aplustutoringfreetrial"
-     
+                    className="btn btn-primary "
                     style={{
-                      padding: "10px 0px",
+                      padding: "10px 10px",
                       borderRadius: "30px",
                       fontSize: "11px",
                 
@@ -62,17 +62,17 @@ export default function Offer() {
               <span className="icon-calculator color-2">
                 <Percent />
               </span>
-              <h3>Math Class</h3>
+              <h3 style={{fontWeight:"bolder"}}>Math Class</h3>
               <p>
                 {" "}
                 Master key math concepts with step-by-step help that makes
                 problem-solving easier.
                       <span className="d-block mt-3">
-                  <a target="_blank"
+                   <a target="_blank"
                     href="https://scheduler.zoom.us/a-help-sitra/aplustutoringfreetrial"
-     
+                    className="btn btn-primary "
                     style={{
-                      padding: "10px 0px",
+                      padding: "10px 10px",
                       borderRadius: "30px",
                       fontSize: "11px",
                 
@@ -97,16 +97,16 @@ export default function Offer() {
               <span className="icon-leanpub color-3">
                 <JournalCheck />
               </span>
-              <h3>Homework Assistance</h3>
+              <h3 style={{fontWeight:"bolder"}}>Homework Assistance</h3>
               <p>
                 Get daily support to complete assignments accurately and on
                 time.
                 <span className="d-block mt-3">
-                  <a target="_blank"
+                     <a target="_blank"
                     href="https://scheduler.zoom.us/a-help-sitra/aplustutoringfreetrial"
-     
+                    className="btn btn-primary "
                     style={{
-                      padding: "10px 0px",
+                      padding: "10px 10px",
                       borderRadius: "30px",
                       fontSize: "11px",
                 
@@ -130,17 +130,17 @@ export default function Offer() {
           >
             <div className="feature">
               <span className="icon-book color-4">አ</span>
-              <h3>Amharic for Beginners</h3>
+              <h3 style={{fontWeight:"bolder"}}>Amharic for Beginners</h3>
               <p>
                 {" "}
                 Learn to read, write, and speak Amharic confidently for school
                 or family connection.
                       <span className="d-block mt-3">
-                  <a target="_blank"
+                     <a target="_blank"
                     href="https://scheduler.zoom.us/a-help-sitra/aplustutoringfreetrial"
-     
+                    className="btn btn-primary "
                     style={{
-                      padding: "10px 0px",
+                      padding: "10px 10px",
                       borderRadius: "30px",
                       fontSize: "11px",
                 
@@ -177,17 +177,17 @@ export default function Offer() {
                   <path d="M101.439 117.58h55.18V62.4h-55.18zm15-40.18h25.18v25.18h-25.18zM101.439 192.08h55.18V136.9h-55.18zm15-40.18h25.18v25.18h-25.18zM101.439 266.581h55.18V211.4h-55.18zm15-40.181h25.18v25.181h-25.18zM101.439 341.081h55.18v-55.18h-55.18zm15-40.18h25.18v25.18h-25.18zM177.835 326.081h114.688v15H177.835zM177.835 251.581h114.688v15H177.835zM177.835 177.08h114.688v15H177.835zM177.835 102.58h114.688v15H177.835z"></path>
                 </svg>
               </span>
-              <h3>SAT Prep</h3>
+              <h3 style={{fontWeight:"bolder"}}>SAT Prep</h3>
               <p>
                 {" "}
                 Improve your test-taking skills and raise your SAT score with
                 proven strategies and practice.
                 <span className="d-block mt-3">
-                  <a target="_blank"
+                    <a target="_blank"
                     href="https://scheduler.zoom.us/a-help-sitra/aplustutoringfreetrial"
-     
+                    className="btn btn-primary "
                     style={{
-                      padding: "10px 0px",
+                      padding: "10px 10px",
                       borderRadius: "30px",
                       fontSize: "11px",
                 
@@ -210,16 +210,16 @@ export default function Offer() {
           >
             <div className="feature">
               <span className="icon-className color-6">ት</span>
-              <h3>Tigrinya for Beginners</h3>
+              <h3 style={{fontWeight:"bolder"}}>Tigrinya for Beginners</h3>
               <p>
                 Understand and speak Tigrinya fluently to stay connected with
                 your culture and heritage.
                       <span className="d-block mt-3">
-                  <a target="_blank"
+              <a target="_blank"
                     href="https://scheduler.zoom.us/a-help-sitra/aplustutoringfreetrial"
-     
+                    className="btn btn-primary "
                     style={{
-                      padding: "10px 0px",
+                      padding: "10px 10px",
                       borderRadius: "30px",
                       fontSize: "11px",
                 
