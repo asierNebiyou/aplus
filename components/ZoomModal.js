@@ -6,7 +6,7 @@ export default function ZoomModal({ show, onClose }) {
   return (
     <div className="zoom-overlay">
       <div className="zoom-modal">
-        <button className="zoom-close" onClick={onClose}>
+        <button className="zoom-close" style={{zIndex:2000}} onClick={onClose}>
           &times;
         </button>
         <iframe

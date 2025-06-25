@@ -23,7 +23,7 @@ const Navbar = () => {
     <nav className={`site-nav mb-5 ${isSticky ? 'sticky-active' : ''}`}>
       <div className="container position-relative">
         <div className="site-navigation text-center">
-          <a  href="index.html" className={`menu-absolute m-0 ${isSticky ? 'logo-blue' : 'logo'}`}>
+          <a  style={{textDecoration: 'none'}} className={`menu-absolute m-0 ${isSticky ? 'logo-blue' : 'logo'}`}>
             Aplus Tutoring<span className="text-primary">.</span>
           </a>
 

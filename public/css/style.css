@@ -52,7 +52,7 @@ a.text-primary {
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   font-family: "Libre Baskerville", serif;
-  color: #black; }
+  color: black; }
 
 .btn {
   padding-top: 15px;
@@ -175,9 +175,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   position: absolute;
   right: 15px;
   margin-top: -2px; }
-  @media (max-width: 991.98px) {
-    .btn-book {
-      right: 60px; } }
+
 
 .site-nav {
   position: absolute;
@@ -535,6 +533,19 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .burger:focus {
   outline: none; }
 
+
+.hero-bg {
+  background-image: url('/images/hero_1.jpg') !important;
+}
+
+@media (max-width: 767.98px) {
+  .hero-bg {
+    background-image: url('/images/hero_1_mobile4.jpg') !important; /* mobile image */
+ 
+  background-attachment: scroll !important;
+  }
+}
+
 .untree_co-hero, .bg-img {
   background-size: cover;
   background-position: center center;
@@ -656,13 +667,13 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 /* Thematic color classes */
 .block-v1.color-1 {
-  background: linear-gradient(135deg, #5cb100 0%, #76d600 100%);
+  background: linear-gradient(135deg, #A4DDED 0%, #A4DDED 100%);
 }
 .block-v1.color-2 {
-  background: linear-gradient(135deg, #ec661f 0%, #ff914d 100%);
+  background: linear-gradient(135deg, #6CB4EE 0%, #6CB4EE 100%);
 }
 .block-v1.color-3 {
-  background: linear-gradient(135deg, #4fb0dc 0%, #6fcfff 100%);
+  background: linear-gradient(135deg, #1a1f71 0%, #1a1f71 100%);
 }
 
 
@@ -740,11 +751,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   content: "";
   position: absolute;
   width: 150%;
-  height: 70%;
-  right: -100%;
-  top: -40px;
+  height: 42%;
+  right: -103%;
+  top: -60px;
   z-index: -1;
-  background: rgba(15, 183, 141, 0.2); }
+  background: rgba(15, 183, 141, 0.2);
+margin-top: 10%; }
 
 .bg-2:before {
   content: "";

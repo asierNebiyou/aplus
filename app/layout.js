@@ -1,4 +1,4 @@
-""
+
 import './globals.css';
 import Script from 'next/script';
 import { Providers } from "./providers";
@@ -14,6 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        
         <link
           href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900|Rubik:300,400,500,700,900"
           rel="stylesheet"
@@ -34,17 +35,20 @@ export default function RootLayout({
           href="/css/style.css"
           rel="stylesheet"
         />
-        <link
+        {/* <link
           href="/css/bootstrap.min.css"
           rel="stylesheet" defer
-        />
+        /> */}
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossOrigin="anonymous"/>
+
       </head>
       <body>
         <Providers>{children}</Providers>
         <Script src="/js/jquery.min.js" strategy="beforeInteractive" />
         <Script src="/js/jquery.waypoints.min.js" strategy="beforeInteractive" />
         <Script src="/js/popper.min.js" strategy="afterInteractive" />
-        <Script src="/js/bootstrap.min.js" strategy="afterInteractive" />
+        {/* <Script src="/js/bootstrap.min.js" strategy="afterInteractive" /> */}
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossOrigin="anonymous"></script>
         <Script src="/js/owl.carousel.min.js" strategy="afterInteractive" />
         <Script src="/js/main.js" strategy="afterInteractive" />
         <Script src="/js/jquery.animateNumber.min.js" strategy="afterInteractive" />

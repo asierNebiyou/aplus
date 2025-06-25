@@ -9,6 +9,7 @@ body {
   font-weight: 400;
   background: #fff;
   color: #999999;
+  width: 100vw;
 }
 
 a {

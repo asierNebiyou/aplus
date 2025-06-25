@@ -10,6 +10,8 @@ export default function Hero() {
 const [showModal, setShowModal] = useState(false);
  const { openZoomModal } = useZoomModal();
   const [selectedVideo, setSelectedVideo] = useState(null);
+  const [isMobile, setIsMobile] = useState(false);
+
 
   const getYouTubeHeight = () => {
     const width = typeof window !== "undefined" ? window.innerWidth : 1200;
@@ -56,8 +58,8 @@ const [showModal, setShowModal] = useState(false);
   return (
     <>
       <div
-        className="untree_co-hero overlay"
-        style={{ backgroundImage: `url('/images/hero_1.jpg')` }}
+        className="untree_co-hero overlay hero-bg"
+        
       >
         <div className="container">
           <div className="row align-items-center justify-content-center">
@@ -84,10 +86,11 @@ const [showModal, setShowModal] = useState(false);
                     </span>
                   </a>
                 </div>
-                <div className="col-lg-6 text-center text-lg-left">
+                <div className="col-lg-6 text-center text-md-start">
                   <h1
-                    className="mb-4 heading text-white aos-init aos-animate"
+                    className="mb-4 heading text-white aos-init aos-animate text-sm-left"
                     data-aos="fade-up"
+                    
                     data-aos-delay="100" style={{  textTransform: "uppercase" }}
                   >
                     Unlock your Child&apos;s full potential
@@ -169,7 +172,7 @@ style={{
                 </div>
               </>
             ) :( 
-              <>
+              <div >
               {videoOptions.map((video) => (
                   <div
                     key={video.id}
@@ -178,7 +181,7 @@ style={{
                       selectVideo(video.id);
                     }}
                     style={{
-                      width: "520px", // You can adjust this value
+                      maxWidth: "520px", // You can adjust this value
                       aspectRatio: "16 / 9", // Perfect 16:9
                       backgroundImage: `url(https://img.youtube.com/vi/${video.id}/hqdefault.jpg)`,
                       backgroundSize: "cover",
@@ -216,7 +219,7 @@ style={{
                     </div>
                   </div>
                 ))}
-            </>
+            </div>
             )}
   {/* <div
     className="card shadow"
