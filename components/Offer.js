@@ -29,7 +29,7 @@ export default function Offer() {
                 <Translate />
               </span>
               <h3 style={{fontWeight:"bolder"}}>English Class</h3>
-              <p>
+              <p style={{minHeight: "150px"}}>
                 Build strong reading, writing, and speaking skills to boost
                 school performance and confidence.
                 <span className="d-block mt-3">
@@ -63,7 +63,7 @@ export default function Offer() {
                 <Percent />
               </span>
               <h3 style={{fontWeight:"bolder"}}>Math Class</h3>
-              <p>
+              <p style={{minHeight: "150px"}}>
                 {" "}
                 Master key math concepts with step-by-step help that makes
                 problem-solving easier.
@@ -98,7 +98,7 @@ export default function Offer() {
                 <JournalCheck />
               </span>
               <h3 style={{fontWeight:"bolder"}}>Homework Assistance</h3>
-              <p>
+              <p style={{minHeight: "150px"}}>
                 Get daily support to complete assignments accurately and on
                 time.
                 <span className="d-block mt-3">
@@ -131,7 +131,7 @@ export default function Offer() {
             <div className="feature">
               <span className="icon-book color-4">አ</span>
               <h3 style={{fontWeight:"bolder"}}>Amharic for Beginners</h3>
-              <p>
+              <p style={{minHeight: "150px"}}>
                 {" "}
                 Learn to read, write, and speak Amharic confidently for school
                 or family connection.
@@ -178,7 +178,7 @@ export default function Offer() {
                 </svg>
               </span>
               <h3 style={{fontWeight:"bolder"}}>SAT Prep</h3>
-              <p>
+              <p style={{minHeight: "150px"}}>
                 {" "}
                 Improve your test-taking skills and raise your SAT score with
                 proven strategies and practice.
@@ -211,7 +211,7 @@ export default function Offer() {
             <div className="feature">
               <span className="icon-className color-6">ት</span>
               <h3 style={{fontWeight:"bolder"}}>Tigrinya for Beginners</h3>
-              <p>
+              <p style={{minHeight: "150px"}}>
                 Understand and speak Tigrinya fluently to stay connected with
                 your culture and heritage.
                       <span className="d-block mt-3">
