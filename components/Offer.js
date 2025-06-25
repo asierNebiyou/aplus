@@ -98,7 +98,7 @@ export default function Offer() {
                         letterSpacing: "0.03rem",
                       }}
                     >
-                      Schedule a free session
+                      Free Trial
                     </a>
                   </span>
                 </p>
