@@ -80,7 +80,7 @@ export default function Offer() {
                 <h3 style={{ fontWeight: "bolder" }}>{item.title}</h3>
                 <p
                   className=" d-flex flex-column justify-content-between"
-                  style={{ minHeight: "150px" }}
+                  style={{ height: "150px" }}
                 >
                   {item.desc}
                   <span className="d-block mt-3">
