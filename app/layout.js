@@ -44,17 +44,17 @@ export default function RootLayout({
       </head>
       <body>
         <Providers>{children}</Providers>
-        <Script src="/js/jquery.min.js" strategy="beforeInteractive" />
-        <Script src="/js/jquery.waypoints.min.js" strategy="beforeInteractive" />
-        <Script src="/js/popper.min.js" strategy="afterInteractive" />
+        <Script src="/js/jquery.min.js" strategy="beforeInteractive" async/>
+        <Script src="/js/jquery.waypoints.min.js" strategy="beforeInteractive" async/>
+        <Script src="/js/popper.min.js" strategy="afterInteractive" async/>
         {/* <Script src="/js/bootstrap.min.js" strategy="afterInteractive" /> */}
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossOrigin="anonymous"></script>
-        <Script src="/js/owl.carousel.min.js" strategy="afterInteractive" />
-        <Script src="/js/main.js" strategy="afterInteractive" />
-        <Script src="/js/jquery.animateNumber.min.js" strategy="afterInteractive" />
-        <Script src="/js/jquery.fancybox.min.js" strategy="afterInteractive" />
-        <Script src="/js/aos.js" strategy="afterInteractive" />
-        <Script src="/js/jquery.sticky.js" strategy="afterInteractive" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossOrigin="anonymous" defer></script>
+        <Script src="/js/owl.carousel.min.js" strategy="afterInteractive" defer/>
+        <Script src="/js/main.js" strategy="afterInteractive" defer />
+        <Script src="/js/jquery.animateNumber.min.js" strategy="afterInteractive" defer/>
+        <Script src="/js/jquery.fancybox.min.js" strategy="afterInteractive" defer/>
+        <Script src="/js/aos.js" strategy="afterInteractive" async/>
+        <Script src="/js/jquery.sticky.js" strategy="afterInteractive" async/>
       </body>
     </html>
   );
