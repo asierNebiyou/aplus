@@ -32,6 +32,24 @@ export default function Offer() {
               <p>
                 Build strong reading, writing, and speaking skills to boost
                 school performance and confidence.
+                <span className="d-block mt-3">
+                  <a target="_blank"
+                    href="https://scheduler.zoom.us/a-help-sitra/aplustutoringfreetrial"
+     
+                    style={{
+                      padding: "10px 0px",
+                      borderRadius: "30px",
+                      fontSize: "11px",
+                
+                      textTransform: "uppercase",
+                      fontWeight: 700,
+                      letterSpacing: "0.05rem",
+                    }}
+                  >
+                      Schedule a free session
+
+                  </a>
+                </span>
               </p>
             </div>
           </div>
@@ -49,6 +67,24 @@ export default function Offer() {
                 {" "}
                 Master key math concepts with step-by-step help that makes
                 problem-solving easier.
+                      <span className="d-block mt-3">
+                  <a target="_blank"
+                    href="https://scheduler.zoom.us/a-help-sitra/aplustutoringfreetrial"
+     
+                    style={{
+                      padding: "10px 0px",
+                      borderRadius: "30px",
+                      fontSize: "11px",
+                
+                      textTransform: "uppercase",
+                      fontWeight: 700,
+                      letterSpacing: "0.05rem",
+                    }}
+                  >
+                      Schedule a free session
+
+                  </a>
+                </span>
               </p>
             </div>
           </div>
@@ -65,6 +101,24 @@ export default function Offer() {
               <p>
                 Get daily support to complete assignments accurately and on
                 time.
+                <span className="d-block mt-3">
+                  <a target="_blank"
+                    href="https://scheduler.zoom.us/a-help-sitra/aplustutoringfreetrial"
+     
+                    style={{
+                      padding: "10px 0px",
+                      borderRadius: "30px",
+                      fontSize: "11px",
+                
+                      textTransform: "uppercase",
+                      fontWeight: 700,
+                      letterSpacing: "0.05rem",
+                    }}
+                  >
+                      Schedule a free session
+
+                  </a>
+                </span>
               </p>
             </div>
           </div>
@@ -81,6 +135,24 @@ export default function Offer() {
                 {" "}
                 Learn to read, write, and speak Amharic confidently for school
                 or family connection.
+                      <span className="d-block mt-3">
+                  <a target="_blank"
+                    href="https://scheduler.zoom.us/a-help-sitra/aplustutoringfreetrial"
+     
+                    style={{
+                      padding: "10px 0px",
+                      borderRadius: "30px",
+                      fontSize: "11px",
+                
+                      textTransform: "uppercase",
+                      fontWeight: 700,
+                      letterSpacing: "0.05rem",
+                    }}
+                  >
+                      Schedule a free session
+
+                  </a>
+                </span>
               </p>
             </div>
           </div>
@@ -110,6 +182,24 @@ export default function Offer() {
                 {" "}
                 Improve your test-taking skills and raise your SAT score with
                 proven strategies and practice.
+                <span className="d-block mt-3">
+                  <a target="_blank"
+                    href="https://scheduler.zoom.us/a-help-sitra/aplustutoringfreetrial"
+     
+                    style={{
+                      padding: "10px 0px",
+                      borderRadius: "30px",
+                      fontSize: "11px",
+                
+                      textTransform: "uppercase",
+                      fontWeight: 700,
+                      letterSpacing: "0.05rem",
+                    }}
+                  >
+                      Schedule a free session
+
+                  </a>
+                </span>
               </p>
             </div>
           </div>
@@ -124,6 +214,24 @@ export default function Offer() {
               <p>
                 Understand and speak Tigrinya fluently to stay connected with
                 your culture and heritage.
+                      <span className="d-block mt-3">
+                  <a target="_blank"
+                    href="https://scheduler.zoom.us/a-help-sitra/aplustutoringfreetrial"
+     
+                    style={{
+                      padding: "10px 0px",
+                      borderRadius: "30px",
+                      fontSize: "11px",
+                
+                      textTransform: "uppercase",
+                      fontWeight: 700,
+                      letterSpacing: "0.05rem",
+                    }}
+                  >
+                      Schedule a free session
+
+                  </a>
+                </span>
               </p>
             </div>
           </div>
