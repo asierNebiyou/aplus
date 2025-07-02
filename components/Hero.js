@@ -126,7 +126,7 @@ const [showModal, setShowModal] = useState(false);
                       onClick={openZoomModal}
                       className="btn btn-primary"
                     >
-                      Get a Free Trial
+                      Schedule a Free Trial
                     </a>
                   </p>
                 </div>

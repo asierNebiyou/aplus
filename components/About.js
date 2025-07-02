@@ -155,7 +155,7 @@ export default function About() {
                   
                 }}
               >
-                Get a Free Trial
+               Schedule a Free Trial
               </a>
             </p>
           </div>

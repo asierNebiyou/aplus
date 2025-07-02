@@ -12,7 +12,7 @@ export default function Offer() {
           >
             <h2 className="line-bottom text-center mb-4">What We Offer</h2>
             <p>
-              Every session is a personalized, one-on-one class, giving your
+              Every session is a personalized, one-on-one session(s), giving your
               child the focused attention they need to thrive. We keep you
               involved with weekly progress reports and work closely with their
               school teachers to ensure consistent support and success.
@@ -23,13 +23,13 @@ export default function Offer() {
           {[
             {
               icon: <Translate />,
-              title: "English Class",
+              title: "Reading session(s)",
               desc:
                 "Build strong reading, writing, and speaking skills to boost school performance and confidence.",
             },
             {
               icon: <Percent />,
-              title: "Math Class",
+              title: "Math session(s)",
               desc:
                 "Master key math concepts with step-by-step help that makes problem-solving easier.",
             },
@@ -83,24 +83,7 @@ export default function Offer() {
                   style={{ height: "150px" }}
                 >
                   {item.desc}
-                  <span className="d-block mt-3">
-                    <a
-                      target="_blank"
-                      rel="noreferrer"
-                      href="https://scheduler.zoom.us/a-help-sitra/aplustutoringfreetrial"
-                      className="btn btn-primary"
-                      style={{
-                        padding: "6px 12px",
-                        borderRadius: "20px",
-                        fontSize: "10px",
-                        textTransform: "uppercase",
-                        fontWeight: 600,
-                        letterSpacing: "0.03rem",
-                      }}
-                    >
-                      Free Trial
-                    </a>
-                  </span>
+                 
                 </p>
               </div>
             </div>
